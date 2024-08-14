@@ -20,7 +20,7 @@
 
     {% comment %} <link rel="preload" href="{{ 'styles.css' | asset_url }}" as="style"> {% endcomment %}
 
-    {% render 'head-tag' %}
+    {% render 'head-tag' %} 
     {%- assign base_font = settings.type_base_font -%}
     {%- assign base_font_medium = base_font | font_modify: 'weight', '500' -%}
     {%- assign base_font_semibold = base_font | font_modify: 'weight', '600' -%}
